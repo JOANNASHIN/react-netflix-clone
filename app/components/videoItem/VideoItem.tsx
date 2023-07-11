@@ -1,5 +1,5 @@
 import React from 'react';
-import videoItemStyles from './style';
+import videoItemStyles from './VideoItem.style';
 
 function VideoItem() {
   const testImage =

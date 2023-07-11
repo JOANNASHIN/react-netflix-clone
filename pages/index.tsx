@@ -1,8 +1,8 @@
-import MainContainer from '@/containers/MainContainer';
+import MainContainer from '@/containers/main/MainContainer';
 import type { NextPage } from 'next';
 
-const app: NextPage = () => {
+const Index: NextPage = () => {
   return <MainContainer />;
 };
 
-export default app;
+export default Index;
