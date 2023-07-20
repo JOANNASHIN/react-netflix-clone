@@ -3,9 +3,9 @@ import style from './Layout.style';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div css={style}>
+    <div css={style} className="bgImage">
       <Header />
-      {children}
+      <main>{children}</main>
     </div>
   );
 }
