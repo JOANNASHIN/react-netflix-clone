@@ -15,7 +15,7 @@ const style = css`
   }
 
   &.bgImage {
-    background: url('/images/background.jpg') no-repeat 0 0 / auto 100%;
+    background: url('/images/background.jpg') no-repeat 0 0 / 100% auto;
 
     header,
     main {
